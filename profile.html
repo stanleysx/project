@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Project</title>
+  <link rel="stylesheet" href="public/stylesheets/style.css">
+</head>
+<body>
+  <h1>Profile</h1>
+  <form method="POST" action="/profile/edit">
+    <p>
+      <label for="email">Email:</label>
+      <input type="email" name="email" placeholder="jsmith@gmail.com"><br>
+    </p>
+    <p>
+      <label for="password">Password:</label>
+      <input type="password" name="password"><br>
+    </p>
+    <p>
+      <label for="gender">Gender</label>
+      <input type="radio" name="gender">Male<br>
+      <input type="radio" name="gender">Female<br>
+    </p>
+    <p>
+      <label for="firstname">First Name:</label>
+      <input type="text" name="firstname"><br>
+    </p>
+    <p>
+      <label for="lastname">Last Name:</label>
+      <input type="text" name="lastname"><br>
+    </p>
+  </form>
+</body>
+</html>
